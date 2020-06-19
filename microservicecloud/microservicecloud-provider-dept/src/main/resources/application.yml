@@ -1,0 +1,17 @@
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.jiang.entities
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+spring:
+  application:
+    name: microservicecloud-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://172.20.68.236\MSSQLSERVER2017:54451;database=SD_PKG_20191212
+    username: sa
+    password: 123456
+server:
+  port: 8001
