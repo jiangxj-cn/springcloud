@@ -1,1 +1,4 @@
-microservicecloud/.idea/
+microservicecloud/.idea
+microservicecloud/microservicecloud-api/target
+microservicecloud/microservicecloud-consumer-dept/target
+microservicecloud/microservicecloud-provider-dept/target

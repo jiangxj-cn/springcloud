@@ -15,3 +15,17 @@ spring:
     password: 123456
 server:
   port: 8001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: microservicecloud-dept8001
+    prefer-ip-address: true
+
+info:
+  app.name: jiang-microservicecloud
+  company.name: www.jiang.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
