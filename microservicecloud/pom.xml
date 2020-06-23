@@ -13,6 +13,12 @@
         <module>microservicecloud-consumer-dept</module>
         <module>microservicecloud-eureka-7001</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
     <packaging>pom</packaging>
     <build>
         <finalName>microservicecloud</finalName>
