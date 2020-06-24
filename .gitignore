@@ -2,3 +2,12 @@ microservicecloud/.idea
 microservicecloud/microservicecloud-api/target
 microservicecloud/microservicecloud-consumer-dept/target
 microservicecloud/microservicecloud-provider-dept/target
+microservicecloud/microservicecloud-eureka-7001/target
+microservicecloud/microservicecloud-eureka-7002/target
+microservicecloud/microservicecloud-eureka-7003/target
+microservicecloud/microservicecloud-provider-dept-8001/target
+microservicecloud/microservicecloud-provider-dept-8002/target
+microservicecloud/microservicecloud-provider-dept-8003/target
+microservicecloud/microservicecloud-consumer-dept-feign/target
+microservicecloud/microservicecloud-provider-dept-8003/target/
+microservicecloud/microservicecloud-provider-dept-8003/target/classes/
