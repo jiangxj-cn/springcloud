@@ -11,3 +11,20 @@ microservicecloud/microservicecloud-provider-dept-8003/target
 microservicecloud/microservicecloud-consumer-dept-feign/target
 microservicecloud/microservicecloud-provider-dept-8003/target/
 microservicecloud/microservicecloud-provider-dept-8003/target/classes/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore Maven generated target folders
+target
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+microservicecloud/microservicecloud-provider-dept-hystrix-8001/target/classes/com/jiang/springcloud/controller/DeptController.class

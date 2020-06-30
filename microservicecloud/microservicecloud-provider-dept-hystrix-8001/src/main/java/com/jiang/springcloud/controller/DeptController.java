@@ -38,6 +38,7 @@ public class DeptController {
         }
         return dept;
     }
+
     public  Dept processHystrix_Get(@PathVariable("id") Long id){
         return new Dept(id,"no data","no dataBase has data!");
     }

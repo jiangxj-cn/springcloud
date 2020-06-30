@@ -13,6 +13,11 @@
         <module>microservicecloud-consumer-dept</module>
         <module>microservicecloud-eureka-7001</module>
         <module>microservicecloud-consumer-dept-feign</module>
+        <module>microservicecloud-consumer-hystrix-dashboard</module>
+        <module>microservicecloud-zuul-gateway-9527</module>
+        <module>untitled</module>
+        <module>microservicecloud-config-3344</module>
+        <module>microservicecloud-config-client-3355</module>
     </modules>
     <dependencies>
         <dependency>
